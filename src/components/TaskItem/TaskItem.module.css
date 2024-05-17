@@ -1,0 +1,35 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+.task_item {
+  width: 340px;
+  border: 1px solid #e3e3e3;
+  border-radius: 18px;
+  padding: 10px 10px;
+  display: grid;
+  grid-template-columns: 25px 1fr 25px;
+  align-items: center;
+  gap: 5px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.checkButton {
+  border: none;
+  color: #e30808;
+  transition: 0.3s;
+}
+
+.removeButton {
+  cursor: pointer;
+  border: none;
+  color: #e3e3e3;
+  transition: 0.3s;
+}
+.list_item {
+  list-style-type: none;
+}
+
+.list_item__done {
+  text-decoration: line-through;
+  list-style-type: none;
+}

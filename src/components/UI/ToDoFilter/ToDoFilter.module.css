@@ -1,0 +1,27 @@
+.filters {
+  display: grid;
+  width: 340px;
+  grid-template-columns: repeat(3, 1fr);
+  box-sizing: border-box;
+  border: 1px solid #f0f0f0;
+  border-radius: 30px;
+}
+
+.button {
+  border: none;
+  outline: none;
+  background: none;
+  padding: 6px 20px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: #e30808;
+}
+
+.active_button {
+  padding: 6px 20px;
+  border: 2px solid #e30808;
+  color: #e30808;
+  border-radius: 30px;
+}

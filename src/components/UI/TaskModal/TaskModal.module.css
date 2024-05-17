@@ -1,0 +1,44 @@
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css");
+
+.formModal {
+  margin-top: 15px;
+  display: none;
+  flex-direction: column;
+  border: 1px solid #e3e3e3;
+  border-radius: 18px;
+  padding: 15px;
+}
+
+.formModal_active {
+  display: flex;
+  flex-direction: column;
+}
+
+.input {
+  border: 2px solid #e30808;
+  border-radius: 18px;
+  padding: 8px 14px;
+}
+
+.redButton {
+  font-size: 17px;
+  padding: 8px 10px;
+  color: white;
+  margin-top: 15px;
+  background: #e30808;
+  border-radius: 18px;
+  border: none;
+}
+
+.button {
+  margin-top: 15px;
+  width: 340px;
+  border-radius: 18px;
+  padding: 15px 10px;
+}
+
+.closeBtn {
+  border: none;
+  display: flex;
+  justify-content: end;
+}
